@@ -33,8 +33,6 @@
     "lint:fix": "eslint src/ --fix",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "xxxprepare": "yarn build",
-    "preinstall": "yarn build",
     "docs:dev": "styleguidist server",
     "docs:build": "styleguidist build",
     "predocs:deploy": "yarn docs:build",
